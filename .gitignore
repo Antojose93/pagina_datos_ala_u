@@ -1,0 +1,45 @@
+# Archivos de entorno
+.env
+*.env
+.env.*
+
+# Configuración de Streamlit
+.streamlit/config.toml
+.streamlit/secrets.toml
+
+# Directorios y archivos generados
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# Archivos de log
+*.log
+
+# Archivos de entorno virtual (si usas un entorno virtual en el directorio del proyecto)
+venv/
+.venv/
+env/
+ENV/
+
+# Archivos de caché de Jupyter Notebook (si lo utilizas en tu proyecto)
+.ipynb_checkpoints
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de compilación y empaquetado
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Archivos de configuración de IDE
+.vscode/
+.idea/
+*.sublime*
+
+# Archivos de Streamlit específicos
+*.streamlit/
